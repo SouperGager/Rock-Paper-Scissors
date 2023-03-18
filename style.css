@@ -1,0 +1,121 @@
+
+html, body {
+    height: 100%;
+  }  
+  
+  .container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+  
+  .logo{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 0px;
+    left: 0px;
+  }
+  
+  
+  body {
+    background-image: url('https://w0.peakpx.com/wallpaper/338/1021/HD-wallpaper-white-crumpled-paper-texture-white-paper-background-paper-texture-paper.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+  }
+  
+  
+  button{
+    position: absolute;
+    top: 47%;
+    border-radius: 50%;
+    border: 0ch;
+    background-color: transparent;
+  }
+  
+  #logo{
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+  }
+  #logo:hover{
+    transform: scale(1.1);
+  }
+  
+  
+  .img{
+    position: absolute;
+    height: 300px;
+    width: auto;
+  }
+  
+  #rock{
+    left: 15%;
+     cursor: pointer;
+    transition: transform 0.2s ease-out;
+  }
+  #rock:hover {
+    transform: scale(1.1);
+  }
+  
+  
+  #paper{
+    left:45%;
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+  }
+  #paper:hover {
+    transform: scale(1.1);
+  }
+  
+  #scissors{
+    left: 65%;
+    cursor: pointer;
+    transition: transform 0.2s ease-out;
+  }
+  
+  #scissors:hover {
+    transform: scale(1.1);
+  }
+  
+  #results{
+    position: absolute;
+    left: 30%;
+    top: 17%
+  }
+  
+  #results{
+    position: absolute;
+    left: 10%;
+  }
+  
+  h{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+    font-size: 52px;
+    color: #222222;
+    text-align: center;
+  }
+  
+  #playerScore{
+    position: absolute;
+    top: 85%;
+    left: 19%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+    font-size: 32px;
+    color: #222222;
+  }
+  
+  #computerScore{
+    position: absolute;
+    top: 85%;
+    left: 65%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: bold;
+    font-size: 32px;
+    color: #222222;
+    
+  }
